@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset Example</title>
+    <style>
+        /* Centering container */
+        .center-container {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            margin-bottom: 20px; /* Optional: Add space between fieldsets */
+        }
+
+        /* Styling for the specific fieldset */
+        .highlighted-fieldset {
+            background-color: lightblue;
+            border: 2px solid #007BFF;
+            padding: 20px;
+            width: 50%; /* Adjust the width as needed */
+            box-sizing: border-box; /* Ensure padding doesn't affect the width */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center-container">
+        <fieldset class="highlighted-fieldset">
+            <legend>Fieldset 1</legend>
+            <label for="name1">Name:</label>
+            <input type="text" id="name1" name="name1"><br><br>
+            <label for="email1">Email:</label>
+            <input type="email" id="email1" name="email1"><br><br>
+        </fieldset>
+    </div>
+
+    <fieldset>
+        <legend>Fieldset 2</legend>
+        <label for="name2">Name:</label>
+        <input type="text" id="name2" name="name2"><br><br>
+        <label for="email2">Email:</label>
+        <input type="email" id="email2" name="email2"><br><br>
+    </fieldset>
+
+</body>
+</html>
+
+
+<div class="photo-container">
+    <img src="photo1.jpg" alt="Photo 1">
+    <img src="photo2.jpg" alt="Photo 2">
+    <img src="photo3.jpg" alt="Photo 3">
+    <!-- Add more photos as needed -->
+</div>
